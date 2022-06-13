@@ -1,7 +1,7 @@
 // Function should return |true| if subString is part of the searchString regardless of upper or lowercase
 // false if otherwise
 
-// Function takes two paramenters(strings): searchString, subString
+// Function takes two parameters(strings): searchString, subString
 function isSubstring(searchString, subString) {
  
   // Use the toLowerCase() method to convert string to lowercase and saves it to another
