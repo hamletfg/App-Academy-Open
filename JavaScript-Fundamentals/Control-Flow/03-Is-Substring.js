@@ -9,7 +9,7 @@ function isSubstring(searchString, subString) {
   let lowerSearchStr = searchString.toLowerCase();
   let lowerSubStr = subString.toLowerCase();
   
-  // use indexOf() method to compare strings to see if there are any similar characters
+  // use indexOf() method to compare strings to see if there are any similar characters, true if so, false if not (using "!== -1")
   return lowerSearchStr.indexOf(lowerSubStr) !== -1;
 }
 
