@@ -1,11 +1,15 @@
-// Write a function that takes two strings: searchString, subString
 // Function should return |true| if subString is part of the searchString regardless of upper or lowercase
 // false if otherwise
 
+// Function takes two paramenters(strings): searchString, subString
 function isSubstring(searchString, subString) {
+ 
+  // Use the toLowerCase() method to convert string to lowercase and saves it to another
+  // variable since it doesn't change the original string
   let lowerSearchStr = searchString.toLowerCase();
   let lowerSubStr = subString.toLowerCase();
-
+  
+  // use indexOf() method to compare strings to see if there are any similar characters
   return lowerSearchStr.indexOf(lowerSubStr) !== -1;
 }
 
