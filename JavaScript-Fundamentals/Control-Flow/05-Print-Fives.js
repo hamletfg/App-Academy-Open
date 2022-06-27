@@ -1,9 +1,9 @@
-function printFives1For(max) {
-  for (let i = 0; i < max; i += 1) {
-    if (i % 5 === 0) {
+function printFives1For(max) { // create a function and call the paramenter "max"
+  for (let i = 0; i < max; i += 1) { // create a for loop that has the variable i = 0, "i" cannot be greater than input (max), add 1 for each loop
+    if (i % 5 === 0) { // this is how we make sure that the number can be divided by 5 with no remainder
       console.log(i);
     }
   }
 }
 
-printFives1For(20);
+printFives1For(29);
