@@ -34,8 +34,8 @@ function printFives2(max) {           // This is another example of a for loop a
 printFives2(19)
 
 // FUNCTION 4
-function printFives2While(max) {
-  let i = 0;
+function printFives2While(max) {      // The while loop takes what is contained on one line on the for loop and splits it up
+  let i = 0;                          // it is easier to pick out what does what but it also takes quite a few more lines of code
   while (i < max) {
     console.log(i);
     i+= 5;
