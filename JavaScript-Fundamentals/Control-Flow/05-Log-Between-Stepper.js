@@ -13,3 +13,5 @@ function logBetweenStepper(min, max, step) {
     i += step;
   }
 }
+
+logBetweenStepper(-10, 15, 5)
