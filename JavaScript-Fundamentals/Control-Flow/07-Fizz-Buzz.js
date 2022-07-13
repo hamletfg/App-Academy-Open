@@ -13,6 +13,9 @@ function fizzBuzz(max) {
 
 fizzBuzz(20);
 
+
+// This second function is another way to do it, but not quite as elegant as the for loop above.
+
 function fizzBuzzWhile(max) {
   let i = 0;
   while (i < max) {
